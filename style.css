@@ -18,7 +18,33 @@ header {
   background: #000;
   border-bottom: 2px solid #d4af37;
   padding: 20px 0;
+  text-align: center;
 }
+
+header h1 {
+  font-size: 2rem;
+  color: #FFD700; /* bright gold for main title */
+  margin-bottom: 10px;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #B8860B; /* darker golden bronze for nav links */
+  font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+header nav a:hover {
+  color: #FFD700; /* brighten to same gold as titles */
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+}
+
+
 
 .navbar {
   display: flex;
@@ -195,3 +221,23 @@ footer p {
 .whatsapp-btn:hover {
   opacity: 0.8;
 }
+/* Very Small Golden Button for YouTube link */
+a.golden-btn {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 4px 8px;          /* very small button size */
+  background: #d4af37;
+  color: #000;
+  font-size: 0.75rem;        /* smaller text */
+  font-weight: normal;       /* not bold */
+  text-decoration: none;
+  border-radius: 4px;        /* softer edges */
+  border: 1px solid #d4af37;
+  transition: all 0.3s ease;
+}
+
+a.golden-btn:hover {
+  background: #000;
+  color: #d4af37;
+}
+
