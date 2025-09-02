@@ -226,8 +226,8 @@ a.golden-btn {
   display: inline-block;
   margin: 10px auto;
   padding: 4px 8px;          /* very small button size */
-  background: #d4af37;
-  color: #000;
+  background: #000;
+  color: #d4af37;
   font-size: 0.75rem;        /* smaller text */
   font-weight: normal;       /* not bold */
   text-decoration: none;
