@@ -241,14 +241,14 @@ a.golden-btn:hover {
   color: #d4af37;
 }
 
-/* WhatsApp Community Button */
+/* WhatsApp Channel Button */
 a.community-btn {
   display: inline-block;
   padding: 4px 8px;       /* small size */
   background: #25D366;    /* WhatsApp green */
   color: #fff;            /* white text */
   font-size: 0.77rem;     /* small text */
-  font-weight: bold;    
+  font-weight:  normal;    /* not bold */;    
   text-decoration: none;
   border-radius: 4px;     /* soft rounded edges */
   border: 1px solid #1ebe5d; /* darker green border */
